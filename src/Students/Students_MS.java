@@ -1,22 +1,3 @@
-/* Group NO/4 members:
-Manar Bahumayed - 445926161
-Fay Balhamir - 444925631
-Haya AlDossery - 443926850
- * we devided the project to 2 Tasks:
-Task 1: Database setup: 
-	create table.
-	insert students info.
-	(by:Manar)
-Task 2: Functions: 
-	- viewStudent()
-	- insertStudents()
-	(by:Haya)
-	- updateGPA()
-	- deleteStudent()
-	(by: Fay)
-	- find()
-	- while loop to call Functions
-	(by: Manar)*/
 package Students;
 import java.sql.*;
 import java.util.Scanner;
@@ -185,4 +166,5 @@ public class Students_MS {
 
         return false;
     }//end find	
+
 }//end class
