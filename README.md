@@ -41,7 +41,7 @@ what do you want to do?
 4- Delete student
 5- stop
 `````
-**When viewing students (enter 1) :**
+**viewing students (option 1)**
 `````
 1
 Student ID: 1  Student Name: sarah  Student Age: 20  Student GPA: 2.3
@@ -56,7 +56,7 @@ what do you want to do?
 4- Delete student
 5- stop
 `````
-**When insering student (enter 2) :**
+**insering student (option 2)**
 `````
 2
 Enter Student ID: 5
@@ -85,7 +85,7 @@ what do you want to do?
 4- Delete student
 5- stop
 `````
-**When updating student (enter 3) :**
+**updating student (option 3)**
 `````
 3
 Enter ID: 4
@@ -112,7 +112,7 @@ what do you want to do?
 4- Delete student
 5- stop
 `````
-**When deleting student (enter 4) :**
+**deleting student (option 4)**
 `````
 4
 Enter ID: 5
@@ -137,7 +137,7 @@ what do you want to do?
 4- Delete student
 5- stop
 `````
-**When stop (enter 5) :**
+**Exiting the Program (option 5)**
 `````
 what do you want to do? 
 1- View student
