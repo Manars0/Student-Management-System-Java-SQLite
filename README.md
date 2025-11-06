@@ -29,3 +29,127 @@ The program allows users to **view, insert, update, and delete** student records
    - **Exit the program**
 
 ## Example Console Output
+`````
+Connection Established !
+Table created successfully.
+[SQLITE_CONSTRAINT_PRIMARYKEY] A PRIMARY KEY constraint failed (UNIQUE constraint failed: student.ID)
+------------------------------
+what do you want to do? 
+1- View student
+2- Insert student
+3- Update GPA
+4- Delete student
+5- stop
+`````
+**When viewing students (enter 1) :**
+`````
+1
+Student ID: 1  Student Name: sarah  Student Age: 20  Student GPA: 2.3
+Student ID: 2  Student Name: maha  Student Age: 30  Student GPA: 5.6
+Student ID: 3  Student Name: farah  Student Age: 19  Student GPA: 4.0
+Student ID: 4  Student Name: jana  Student Age: 21  Student GPA: 4.6
+------------------------------
+what do you want to do? 
+1- View student
+2- Insert student
+3- Update GPA
+4- Delete student
+5- stop
+`````
+**When insering student (enter 2) :**
+`````
+2
+Enter Student ID: 5
+Enter Student Name: Manar
+Enter Student Age: 25
+Enter Student GPA: 5.0
+Student added successfully!
+------------------------------
+what do you want to do? 
+1- View student
+2- Insert student
+3- Update GPA
+4- Delete student
+5- stop
+1
+Student ID: 1  Student Name: sarah  Student Age: 20  Student GPA: 2.3
+Student ID: 2  Student Name: maha  Student Age: 30  Student GPA: 5.6
+Student ID: 3  Student Name: farah  Student Age: 19  Student GPA: 4.0
+Student ID: 4  Student Name: jana  Student Age: 21  Student GPA: 4.6
+Student ID: 5  Student Name: Manar  Student Age: 25  Student GPA: 5.0
+------------------------------
+what do you want to do? 
+1- View student
+2- Insert student
+3- Update GPA
+4- Delete student
+5- stop
+`````
+**When updating student (enter 3) :**
+`````
+3
+Enter ID: 4
+Enter new GPA: 4.4
+Student GPA updated.
+------------------------------
+what do you want to do? 
+1- View student
+2- Insert student
+3- Update GPA
+4- Delete student
+5- stop
+1
+Student ID: 1  Student Name: sarah  Student Age: 20  Student GPA: 2.3
+Student ID: 2  Student Name: maha  Student Age: 30  Student GPA: 5.6
+Student ID: 3  Student Name: farah  Student Age: 19  Student GPA: 4.0
+Student ID: 4  Student Name: jana  Student Age: 21  Student GPA: 4.4
+Student ID: 5  Student Name: Manar  Student Age: 25  Student GPA: 5.0
+------------------------------
+what do you want to do? 
+1- View student
+2- Insert student
+3- Update GPA
+4- Delete student
+5- stop
+`````
+**When deleting student (enter 4) :**
+`````
+4
+Enter ID: 5
+Student deleted successfully.
+------------------------------
+what do you want to do? 
+1- View student
+2- Insert student
+3- Update GPA
+4- Delete student
+5- stop
+1
+Student ID: 1  Student Name: sarah  Student Age: 20  Student GPA: 2.3
+Student ID: 2  Student Name: maha  Student Age: 30  Student GPA: 5.6
+Student ID: 3  Student Name: farah  Student Age: 19  Student GPA: 4.0
+Student ID: 4  Student Name: jana  Student Age: 21  Student GPA: 4.4
+------------------------------
+what do you want to do? 
+1- View student
+2- Insert student
+3- Update GPA
+4- Delete student
+5- stop
+`````
+**When stop (enter 5) :**
+`````
+what do you want to do? 
+1- View student
+2- Insert student
+3- Update GPA
+4- Delete student
+5- stop
+5
+SYSTEM STOPPED
+`````
+
+## Author
+**Manar Salem**  
+Programming and Database Student  
+[https://github.com/Manars](https://github.com/Manars)
