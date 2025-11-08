@@ -147,9 +147,4 @@ what do you want to do?
 5- stop
 5
 SYSTEM STOPPED
-`````
 
-## Author
-**Manar Salem**  
-Programming and Database Student  
-[https://github.com/Manars](https://github.com/Manars)
